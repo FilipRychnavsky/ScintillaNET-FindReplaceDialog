@@ -43,7 +43,11 @@
     <Node Id="@124" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="Dispose" Visibility="Hidden" />
     <Node Id="@125" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="Dispose" Visibility="Hidden" />
     <Node Id="@126" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="FindNextF" Visibility="Hidden" />
-    <Node Id="@128" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="ReplaceNext" Visibility="Hidden" />
+    <Node Id="@128" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" CommonLabel="ReplaceNext" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="ReplaceNext" SourceLocation="(Assembly=&quot;file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/ScintillaNet FindReplaceDialog/FindReplace/FindReplaceDialog.cs&quot; StartLineNumber=1071 StartCharacterOffset=0 EndLineNumber=1071 EndCharacterOffset=0)" Visibility="Hidden">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="CurrentCallStackEntry" />
+    </Node>
     <Node Id="@129" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="ResumeLayout" Visibility="Hidden" />
     <Node Id="@130" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="set_AutoSize" Visibility="Hidden" />
     <Node Id="@131" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="set_Enabled" Visibility="Hidden" />
@@ -54,7 +58,7 @@
     <Node Id="@136" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="set_Dock" Visibility="Hidden" />
     <Node Id="@138" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="OnActivated" Visibility="Hidden" />
     <Node Id="@139" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="OnClick" Visibility="Hidden" />
-    <Node Id="@14" Category="CodeSchema_Assembly" AssemblyTimestamp="08/09/2018 12:29:17" Bounds="74.585,876.55,395.82,310" CodeSchemaProperty_StrongName="ScintillaNET, Version=3.6.3.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(22ae2386-60f1-476e-9303-61cdb0aac4cf.OutputPath)" Group="Expanded" Label="ScintillaNET.dll">
+    <Node Id="@14" Category="CodeSchema_Assembly" AssemblyTimestamp="08/09/2018 12:29:17" Bounds="49.6883333333333,873.877875093783,445.613333333334,315.062899999999" CodeSchemaProperty_StrongName="ScintillaNET, Version=3.6.3.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(22ae2386-60f1-476e-9303-61cdb0aac4cf.OutputPath)" Group="Expanded" Label="ScintillaNET.dll">
       <Category Ref="FileSystem.Category.FileOfType.dll" />
     </Node>
     <Node Id="@140" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="OnDoubleClick" Visibility="Hidden" />
@@ -96,7 +100,7 @@
     <Node Id="@176" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="PointToScreen" Visibility="Hidden" />
     <Node Id="@177" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="set_Location" Visibility="Hidden" />
     <Node Id="@179" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="Find" Visibility="Hidden" />
-    <Node Id="@18" Category="CodeSchema_Namespace" Bounds="94.585,916.55,355.82,250" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="ScintillaNET" />
+    <Node Id="@18" Category="CodeSchema_Namespace" Bounds="69.6883333333333,913.877975093783,405.613333333334,255.062699999999" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="ScintillaNET" />
     <Node Id="@181" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="FindNext" Visibility="Hidden" />
     <Node Id="@183" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="FindPrevious" Visibility="Hidden" />
     <Node Id="@184" Category="CodeSchema_Method" Bounds="40.7634990143394,428.08601891935,119.621622613333,44.0066561024" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="FindReplace" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Method" Label="FindReplace" Visibility="Hidden" />
@@ -114,7 +118,7 @@
     <Node Id="@198" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="Add" Visibility="Hidden" />
     <Node Id="@199" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="Remove" Visibility="Hidden" />
     <Node Id="@2" Category="CodeSchema_Assembly" AssemblyTimestamp="08/09/2018 12:31:26" Bounds="-525.06669577611,222.305427323841,385.026666666667,261.92" CodeSchemaProperty_StrongName="Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" CommonLabel="Demo" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(cfd9151b-59c7-44a7-a93a-22ec9385738d.OutputPath)" Group="Expanded" Label="Demo.exe" UseManualLocation="True" />
-    <Node Id="@20" Category="CodeSchema_Namespace" Bounds="85.5883278754994,155.289987307281,385.519994702922,320.474072946675" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ScintillaNET_FindReplaceDialog" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="ScintillaNET_FindReplaceDialog" />
+    <Node Id="@20" Category="CodeSchema_Namespace" Bounds="66.3166585602938,155.379249260543,424.063333333333,320.2953" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" CommonLabel="ScintillaNET_FindReplaceDialog" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Label="ScintillaNET_FindReplaceDialog" />
     <Node Id="@200" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="SetStyle" Visibility="Hidden" />
     <Node Id="@201" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="Find" Visibility="Hidden" />
     <Node Id="@202" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="FindNext" Visibility="Hidden" />
@@ -208,7 +212,7 @@
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
     <Node Id="@286" Category="CodeSchema_Method" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" DelayedCrossGroupLinksState="Fetched" Label="FindReplaceDialog" Visibility="Hidden" />
-    <Node Id="@287" Category="CodeSchema_Method" Bounds="-310.653375870511,342.305709153675,69.87,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" CommonLabel="Form1" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="Form1" SourceLocation="(Assembly=file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/Demo/Form1.cs StartLineNumber=23 StartCharacterOffset=0 EndLineNumber=23 EndCharacterOffset=0)">
+    <Node Id="@287" Category="CodeSchema_Method" Bounds="-276.323362442776,342.305427323841,69.87,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsSpecialName="True" CommonLabel="Form1" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="Form1" SourceLocation="(Assembly=file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/Demo/Form1.cs StartLineNumber=23 StartCharacterOffset=0 EndLineNumber=23 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
@@ -230,7 +234,7 @@
     <Node Id="@302" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_mruFind" Visibility="Hidden" />
     <Node Id="@303" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_mruMaxCount" Visibility="Hidden" />
     <Node Id="@304" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_mruReplace" Visibility="Hidden" />
-    <Node Id="@305" Category="CodeSchema_Field" Bounds="254.928261245088,235.289987947281,81.2066666666666,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="_scintilla" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Field" Label="_scintilla" />
+    <Node Id="@305" Category="CodeSchema_Field" Bounds="272.254991893627,235.379449260543,81.2066666666666,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="_scintilla" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Field" Label="_scintilla" />
     <Node Id="@306" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_scintilla" Visibility="Hidden" />
     <Node Id="@307" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_searchRange" Visibility="Hidden" />
     <Node Id="@308" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="_window" Visibility="Hidden" />
@@ -329,7 +333,7 @@
     <Node Id="@396" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="grpOptionsF" Visibility="Hidden" />
     <Node Id="@397" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="Hide" Visibility="Hidden" />
     <Node Id="@398" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="IncrementalSearcher" Visibility="Hidden" />
-    <Node Id="@399" Category="CodeSchema_Field" Bounds="-351.396663427477,398.265742570423,151.356666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="incrementalSearcher1" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Field" Label="incrementalSearcher1" />
+    <Node Id="@399" Category="CodeSchema_Field" Bounds="-465.066695776109,398.265427323841,151.356666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="incrementalSearcher1" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Field" Label="incrementalSearcher1" />
     <Node Id="@4" Category="CodeSchema_Assembly" Bounds="-782.415327292142,494.733643166503,767.256666666667,425" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(FxReferenceAssemblies)\.NETFramework\v4.0\Profile\Client\mscorlib.dll" Group="Expanded" Label="mscorlib.dll" UseManualLocation="True" Visibility="Hidden">
       <Category Ref="FileSystem.Category.FileOfType.dll" />
     </Node>
@@ -378,14 +382,14 @@
     <Node Id="@438" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="rdoStandardR" Visibility="Hidden" />
     <Node Id="@439" Category="CodeSchema_Event" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="ReplaceAllResults" Visibility="Hidden" />
     <Node Id="@44" Category="CodeSchema_Delegate" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="KeyPressedHandler" Visibility="Hidden" />
-    <Node Id="@440" Category="CodeSchema_Method" Bounds="320.62966119626,353.11656023025,101.816666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ReplaceNext" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="ReplaceNext" SourceLocation="(Assembly=&quot;file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/ScintillaNet FindReplaceDialog/FindReplace/FindReplaceDialog.cs&quot; StartLineNumber=738 StartCharacterOffset=0 EndLineNumber=738 EndCharacterOffset=0)">
+    <Node Id="@440" Category="CodeSchema_Method" Bounds="339.949991893627,353.027024260619,101.816666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ReplaceNext" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="ReplaceNext" SourceLocation="(Assembly=&quot;file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/ScintillaNet FindReplaceDialog/FindReplace/FindReplaceDialog.cs&quot; StartLineNumber=748 StartCharacterOffset=0 EndLineNumber=748 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
       <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="@441" Category="CodeSchema_Property" Bounds="512.093334554036,240.9203,138.896666666667,85.9602" CodeSchemaProperty_IsPublic="True" CommonLabel="Scintilla" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Property" Label="Scintilla" Visibility="Hidden" />
     <Node Id="@442" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Scintilla" Visibility="Hidden" />
-    <Node Id="@443" Category="CodeSchema_Field" Bounds="-465.066716833239,398.265742570423,82.6966666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="scintilla1" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Field" Label="scintilla1" />
+    <Node Id="@443" Category="CodeSchema_Field" Bounds="-282.736695776109,398.265427323841,82.6966666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="scintilla1" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Field" Label="scintilla1" />
     <Node Id="@444" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="Select" Visibility="Hidden" />
     <Node Id="@445" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="Show" Visibility="Hidden" />
     <Node Id="@446" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" DelayedCrossGroupLinksState="Fetched" Label="ShowFind" Visibility="Hidden" />
@@ -469,7 +473,7 @@
     <Node Id="@517" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="toolStripSeparator8" Visibility="Hidden" />
     <Node Id="@518" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="toolTip1" Visibility="Hidden" />
     <Node Id="@519" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="tpgFind" Visibility="Hidden" />
-    <Node Id="@52" Category="CodeSchema_Struct" Bounds="220.948327875499,430.764059933956,143.083333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="CharacterRange" />
+    <Node Id="@52" Category="CodeSchema_Struct" Bounds="86.3166585602938,430.674449260544,143.083333333333,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="CharacterRange" />
     <Node Id="@520" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="tpgReplace" Visibility="Hidden" />
     <Node Id="@521" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="tTabToolStripMenuItem1" Visibility="Hidden" />
     <Node Id="@522" Category="CodeSchema_Field" CodeSchemaProperty_IsInternal="True" DelayedCrossGroupLinksState="Fetched" Label="txtFindF" Visibility="Hidden" />
@@ -479,7 +483,7 @@
     <Node Id="@526" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Window" Visibility="Hidden" />
     <Node Id="@53" Category="CodeSchema_Type" Bounds="298.971339374525,689.733643166503,112.42,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="CheckBox" Visibility="Hidden" />
     <Node Id="@54" Category="CodeSchema_Type" Bounds="-552.128660625476,854.733643166503,211.52,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="CompilerGeneratedAttribute" Visibility="Hidden" />
-    <Node Id="@55" Category="CodeSchema_Class" Bounds="105.588327875499,343.507023933956,123.803333333333,25" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Component" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Component" />
+    <Node Id="@55" Category="CodeSchema_Class" Bounds="156.956658560294,343.506949260544,123.803333333333,25" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsPublic="True" CommonLabel="Component" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="Component" />
     <Node Id="@56" Category="CodeSchema_Type" Bounds="-739.921993958809,1001.7336431665,112.57,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Container" Visibility="Hidden" />
     <Node Id="@57" Category="CodeSchema_Type" Bounds="518.488006041191,799.733643166503,151.996666666667,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="ContainerControl" Visibility="Hidden" />
     <Node Id="@58" Category="CodeSchema_Type" Bounds="26.8413393745244,854.733643166503,156.986666666667,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="ContextMenuStrip" Visibility="Hidden" />
@@ -493,8 +497,8 @@
     <Node Id="@64" Category="CodeSchema_Type" Bounds="-590.288660625476,739.733643166503,131.79,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="EventHandler" Visibility="Hidden" />
     <Node Id="@65" Category="CodeSchema_Type" Bounds="-742.415327292142,684.733643166503,112.243333333333,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Exception" Visibility="Hidden" />
     <Node Id="@66" Category="CodeSchema_Class" Bounds="-82.6169134859514,126.246783478575,162.62,25" CodeSchemaProperty_IsPublic="True" CommonLabel="FindAllResultsPanel" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Icon="CodeSchema_Class" Label="FindAllResultsPanel" Visibility="Hidden" />
-    <Node Id="@68" Category="CodeSchema_Class" Bounds="233.224927911755,195.289987627281,124.613333333333,85.96000064" CodeSchemaProperty_IsPublic="True" CommonLabel="FindReplace" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="FindReplace" />
-    <Node Id="@70" Category="CodeSchema_Class" Bounds="291.967666578422,312.937487839937,159.140656,86.1390727103126" CodeSchemaProperty_IsPublic="True" CommonLabel="FindReplaceDialog" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="FindReplaceDialog" />
+    <Node Id="@68" Category="CodeSchema_Class" Bounds="250.551658560294,195.379349260543,124.613333333333,85.9602" CodeSchemaProperty_IsPublic="True" CommonLabel="FindReplace" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="FindReplace" />
+    <Node Id="@70" Category="CodeSchema_Class" Bounds="311.336658560294,313.026924260619,159.043333333333,85.9602" CodeSchemaProperty_IsPublic="True" CommonLabel="FindReplaceDialog" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="FindReplaceDialog" />
     <Node Id="@71" Category="CodeSchema_Type" Bounds="-630.431993958809,1258.7336431665,84.7466666666667,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Font" Visibility="Hidden" />
     <Node Id="@72" Category="CodeSchema_Type" Bounds="250.154672707858,574.733643166503,88.4000000000001,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Form" Visibility="Hidden" />
     <Node Id="@74" Category="CodeSchema_Class" Bounds="-485.06669577611,302.305627323841,305.026674296061,141.920214343262" CodeSchemaProperty_IsPublic="True" CommonLabel="Form1" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="Form1" />
@@ -503,13 +507,13 @@
     <Node Id="@77" Category="CodeSchema_Type" Bounds="441.391339374525,689.733643166503,113.696666666667,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="GroupBox" Visibility="Hidden" />
     <Node Id="@78" Category="CodeSchema_Type" Bounds="-739.921993958809,1056.7336431665,115.763333333333,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="IContainer" Visibility="Hidden" />
     <Node Id="@79" Category="CodeSchema_Type" Bounds="-742.415327292142,739.733643166503,122.126666666667,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="IDisposable" Visibility="Hidden" />
-    <Node Id="@8" Category="CodeSchema_Assembly" AssemblyTimestamp="08/09/2018 12:29:17" Bounds="65.5883278754994,115.289986987281,425.519994702922,495.474074546675" CodeSchemaProperty_StrongName="ScintillaNET FindReplaceDialog, Version=1.4.0.26078, Culture=neutral, PublicKeyToken=null" CommonLabel="ScintillaNET FindReplaceDialog" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(548fd833-9a3b-41bb-9850-570afe9a91b7.OutputPath)" Group="Expanded" Label="ScintillaNET FindReplaceDialog.dll" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Assembly" AssemblyTimestamp="08/09/2018 12:29:17" Bounds="46.3166585602938,115.379149260543,464.063333333333,495.2958" CodeSchemaProperty_StrongName="ScintillaNET FindReplaceDialog, Version=1.4.0.26078, Culture=neutral, PublicKeyToken=null" CommonLabel="ScintillaNET FindReplaceDialog" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" FilePath="$(548fd833-9a3b-41bb-9850-570afe9a91b7.OutputPath)" Group="Expanded" Label="ScintillaNET FindReplaceDialog.dll" UseManualLocation="True" />
     <Node Id="@80" Category="CodeSchema_Type" Bounds="-742.415327292142,574.733643166503,87.99,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Int32" Visibility="Hidden" />
     <Node Id="@81" Category="CodeSchema_Type" Bounds="-742.415327292142,854.733643166503,120.286666666667,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Interlocked" Visibility="Hidden" />
     <Node Id="@82" Category="CodeSchema_Type" Bounds="-624.425327292142,574.733643166503,90.01,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="IntPtr" Visibility="Hidden" />
     <Node Id="@83" Category="CodeSchema_Type" Bounds="187.984672707858,799.733643166503,132.91,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="KeyEventArgs" Visibility="Hidden" />
     <Node Id="@84" Category="CodeSchema_Type" Bounds="368.554672707858,574.733643166503,88.9933333333338,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Label" Visibility="Hidden" />
-    <Node Id="@85" Category="CodeSchema_Class" Bounds="331.935,1011.55,98.47,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Marker" />
+    <Node Id="@85" Category="CodeSchema_Class" Bounds="247.038333333333,953.878075093783,98.47,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Marker" />
     <Node Id="@86" Category="CodeSchema_Type" Bounds="-742.415327292142,629.733643166503,95.8933333333334,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Object" Visibility="Hidden" />
     <Node Id="@87" Category="CodeSchema_Type" Bounds="637.491339374524,629.733643166503,104.313333333334,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Padding" Visibility="Hidden" />
     <Node Id="@88" Category="CodeSchema_Type" Bounds="487.548006041191,574.733643166503,89.3900000000003,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Panel" Visibility="Hidden" />
@@ -519,12 +523,12 @@
     <Node Id="@92" Category="CodeSchema_Type" Bounds="-494.820327292142,1056.7336431665,92.9533333333334,24.9999999999995" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Regex" Visibility="Hidden" />
     <Node Id="@93" Category="CodeSchema_Type" Bounds="-494.820327292142,1001.7336431665,134.94,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="RegexOptions" Visibility="Hidden" />
     <Node Id="@94" Category="CodeSchema_Class" Bounds="221.296658542166,545.764060893956,114.103333333333,25" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsInternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Resources" />
-    <Node Id="@95" Category="CodeSchema_Class" Bounds="246.416666666667,1066.55,101.506666666667,24.9999999999995" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Scintilla" />
+    <Node Id="@95" Category="CodeSchema_Class" Bounds="245.52,1010.56557509378,101.506666666667,24.9999999999995" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Scintilla" />
     <Node Id="@96" Category="CodeSchema_Type" Bounds="606.938006041191,574.733643166503,96.4333333333334,25" CodeSchemaProperty_IsExternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Screen" Visibility="Hidden" />
-    <Node Id="@97" Category="CodeSchema_Enum" Bounds="237.521666666667,1121.55,119.296666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SearchFlags" />
-    <Node Id="@98" Category="CodeSchema_Class" Bounds="114.585,1011.55,109.17,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Selection" />
-    <Node Id="@99" Category="CodeSchema_Class" Bounds="177.141666666667,956.55,162.056666666667,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SelectionCollection" />
-    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="0,1218.2375,86.99,25" Group="Collapsed" Label="Externals" LayoutSettings="List" />
+    <Node Id="@97" Category="CodeSchema_Enum" Bounds="143.625,1067.25307509378,119.296666666667,25" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SearchFlags" />
+    <Node Id="@98" Category="CodeSchema_Class" Bounds="89.6883333333332,1123.94057509378,109.17,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Selection" />
+    <Node Id="@99" Category="CodeSchema_Class" Bounds="293.245,1067.25307509378,162.056666666667,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="SelectionCollection" />
+    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="7.105427357601E-15,1218.94087509378,86.99,25" Group="Collapsed" Label="Externals" LayoutSettings="List" Visibility="Hidden" />
   </Nodes>
   <Links>
     <Link Source="@10" Target="@28" Category="Contains" FetchingParent="@10" />
@@ -844,7 +848,10 @@
     <Link Source="@212" Target="@95" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="4" />
     <Link Source="@212" Target="@98" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="4" />
     <Link Source="@212" Target="@99" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="4" />
-    <Link Source="@213" Target="@440" Category="CodeSchema_Calls" Bounds="371.434988293158,351.006992797851,5.72613970462044E-06,21.0000219726567" Weight="1" />
+    <Link Source="@213" Target="@440" Category="CodeSchema_Calls" Bounds="371.434988293158,351.006992797851,5.72613970462044E-06,21.0000219726567" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+      <Category Ref="CurrentCallStackCall" />
+    </Link>
     <Link Source="@213" Target="@63" Category="References" Weight="1" />
     <Link Source="@213" Target="@86" Category="References" Weight="1" />
     <Link Source="@214" Target="@103" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="4">
@@ -1554,11 +1561,11 @@
     </Link>
     <Link Source="@287" Target="@363" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
     <Link Source="@287" Target="@364" Category="CodeSchema_FieldRead" Bounds="769.397766113281,102.306091308594,0,21.0066299438477" Weight="1" />
-    <Link Source="@287" Target="@399" Category="CodeSchema_FieldRead" Bounds="-275.718371401533,368.265690307617,2.00415072981741E-05,21.0000524902385" Weight="1" />
+    <Link Source="@287" Target="@399" Category="CodeSchema_FieldRead" Bounds="-346.641235351563,367.901702880859,71.8860473632813,27.1806945800781" Weight="1" />
     <Link Source="@287" Target="@402" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
     <Link Source="@287" Target="@43" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
     <Link Source="@287" Target="@44" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="@287" Target="@443" Category="CodeSchema_FieldRead" Bounds="-380.971281527614,367.90196226341,71.8860911262247,27.1807394104142" Weight="3" />
+    <Link Source="@287" Target="@443" Category="CodeSchema_FieldRead" Bounds="-241.388366699219,368.265441894531,0,21" Weight="3" />
     <Link Source="@287" Target="@66" Category="CodeSchema_Calls" Bounds="88.9846410442733,91.5677721813485,645.478094551431,41.3893374821374" IsTargetVirtualized="True" Weight="1" />
     <Link Source="@287" Target="@72" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
     <Link Source="@287" Target="@95" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="1" />
@@ -2461,7 +2468,10 @@
       <Category Ref="CodeSchema_FieldRead" />
     </Link>
     <Link Source="@440" Target="@111" Category="CodeSchema_Calls" IsTargetVirtualized="True" Weight="5" />
-    <Link Source="@440" Target="@128" Category="CodeSchema_Calls" Weight="1" />
+    <Link Source="@440" Target="@128" Category="CodeSchema_Calls" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+      <Category Ref="CurrentCallStackCall" />
+    </Link>
     <Link Source="@440" Target="@310" Category="CodeSchema_Calls" Weight="1" />
     <Link Source="@440" Target="@343" Category="CodeSchema_FieldRead" Weight="1" />
     <Link Source="@440" Target="@388" Category="CodeSchema_Calls" Weight="1" />
@@ -2831,7 +2841,7 @@
     <Link Source="@68" Target="@448" Category="Contains" />
     <Link Source="@68" Target="@45" Category="Contains" />
     <Link Source="@68" Target="@526" Category="Contains" />
-    <Link Source="@68" Target="@55" Category="InheritsFrom" Bounds="187.339172363281,281.339538574219,59.4047241210938,55.5730590820313" Weight="1" />
+    <Link Source="@68" Target="@55" Category="InheritsFrom" Bounds="230.076263427734,281.358459472656,48.4580688476563,55.1054992675781" Weight="1" />
     <Link Source="@70" Target="@125" Category="Contains" />
     <Link Source="@70" Target="@126" Category="Contains" />
     <Link Source="@70" Target="@128" Category="Contains" />
@@ -3064,7 +3074,7 @@
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
     <Link Source="@85" Target="@82" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="14" />
-    <Link Source="@85" Target="@95" Category="References" Bounds="323.790475848564,1036.55,38.2886150605273,25.0699265277262" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="11">
+    <Link Source="@85" Target="@95" Category="References" Bounds="299.600860595703,977.611755371094,0,23.14697265625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="11">
       <Category Ref="CodeSchema_Calls" />
     </Link>
     <Link Source="@94" Target="@54" Category="CodeSchema_AttributeUse" Weight="1" />
@@ -3157,10 +3167,10 @@
     <Link Source="@95" Target="@87" Category="References" IsSourceVirtualized="True" Weight="2">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@95" Target="@97" Category="References" Bounds="297.17,1091.55,0,20.9999999999998" IsSourceVirtualized="True" Weight="2">
+    <Link Source="@95" Target="@97" Category="References" Bounds="225.723724365234,1035.447265625,50.5002136230469,27.550048828125" IsSourceVirtualized="True" Weight="2">
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
-    <Link Source="@95" Target="@99" Category="References" Bounds="268.891418457031,990.019897460938,27.1299438476563,76.5301513671875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5">
+    <Link Source="@95" Target="@99" Category="References" Bounds="338.813781738281,1035.447265625,46.9854736328125,23.4747314453125" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="5">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
@@ -3171,7 +3181,7 @@
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
     <Link Source="@98" Target="@82" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="24" />
-    <Link Source="@98" Target="@95" Category="References" Bounds="198.260909090909,1036.55,61.5492216662696,26.4469311847251" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="26">
+    <Link Source="@98" Target="@95" Category="References" Bounds="89.8519668579102,1032.06701660156,141.764747619629,93.544921875" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="26">
       <Category Ref="CodeSchema_Calls" />
     </Link>
     <Link Source="@99" Target="@48" Category="CodeSchema_ReturnTypeLink" IsSourceVirtualized="True" Weight="2" />
@@ -3184,10 +3194,10 @@
       <Category Ref="CodeSchema_FieldRead" />
     </Link>
     <Link Source="@99" Target="@86" Category="CodeSchema_ReturnTypeLink" IsSourceVirtualized="True" Weight="1" />
-    <Link Source="@99" Target="@95" Category="References" Bounds="259.472900390625,981.549987792969,27.2581481933594,76.4943237304688" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+    <Link Source="@99" Target="@95" Category="References" Bounds="302.317749023438,1044.30163574219,46.9855041503906,23.474853515625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
       <Category Ref="CodeSchema_Calls" />
     </Link>
-    <Link Source="@99" Target="@98" Category="References" Bounds="197.053323311135,981.55,40.8894039615919,25.2687327852534" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7">
+    <Link Source="@99" Target="@98" Category="References" Bounds="193.775085449219,1093.28271484375,136.927154541016,30.2047119140625" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7">
       <Category Ref="CodeSchema_Calls" />
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
@@ -3223,6 +3233,7 @@
     <Category Id="CodeSchema_Struct" Label="Struct" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Struct" NavigationActionLabel="Structs" />
     <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
     <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="CurrentCallStackCall" Label="Current Call Stack call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Current Call Stack call" OutgoingActionLabel="Current Call Stack call" />
     <Category Id="CurrentCallStackEntry" Label="Current Call Stack Entry" BasedOn="BaseCustomContent" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Current Call Stack Entry" />
     <Category Id="Externals" Label="Externals" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Externals" />
     <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
