@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{CFD9151B-59C7-44A7-A93A-22EC9385738D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22AE2386-60F1-476E-9303-61CDB0AAC4CF} = {22AE2386-60F1-476E-9303-61CDB0AAC4CF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScintillaNET FindReplaceDialog", "ScintillaNet FindReplaceDialog\ScintillaNET FindReplaceDialog.csproj", "{548FD833-9A3B-41BB-9850-570AFE9A91B7}"
 	ProjectSection(ProjectDependencies) = postProject
