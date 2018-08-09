@@ -1070,6 +1070,7 @@ namespace ScintillaNET_FindReplaceDialog
 
         private CharacterRange ReplaceNext(bool searchUp)
         {
+			//TODO_FR Warum wird nicht replaced, wenn noch nichts gefunden wurde (erstes Kennzeichnen)
             Regex rr = null;
             CharacterRange selRange = new CharacterRange(_scintilla.Selections[0].Start, _scintilla.Selections[0].End);
 
