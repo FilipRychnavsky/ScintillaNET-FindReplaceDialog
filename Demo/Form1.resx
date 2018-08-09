@@ -191,4 +191,92 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus efficitur
 
 Etiam id maximus nisl. Donec vel urna consequat quam tristique vehicula. Integer tincidunt porttitor lorem. Nam congue purus in sem auctor tristique. Fusce commodo condimentum dolor non luctus. Duis id porttitor nisi. Quisque vitae egestas dolor, sed dapibus velit.</value>
   </data>
+  <data name="scintilla3.Text" xml:space="preserve">
+    <value>//Lokale C#-Deklarationen
+
+static void InfoFaerben(){
+	InformationMultiEditBox.BackColor = -1;
+	if (TheView.GetDBFieldBool("Adressen", "AdressenUebernahmeSperre")  ||  TheView.GetDBFieldBool("Adressen", "BelegUebernahmeSperre")) {
+	    InformationMultiEditBox.BackColor = TheView.GetColor("Warnung");
+	} else if (TheView.GetDBFieldBool("Adressen", "SSV_Sperre")) {
+	    InformationMultiEditBox.BackColor = TheView.GetColor("Negative Einfärbung");
+	} else if (TheView.GetDBFieldDateTime("Adressen", "SSV_Bis") &gt; new System.DateTime(1900, 1, 1)  &amp;&amp;  TheView.GetDBFieldDateTime("Adressen", "SSV_Bis") &lt; System.DateTime.Now) {
+	    InformationMultiEditBox.BackColor = TheView.GetColor("Negative Einfärbung");
+	} 
+}
+
+static string EmailVerschicken(string sEmailAdresse){
+    string sBody = "";
+    if (sEmailAdresse == ""){
+        MsgBox("Die E-Mail-Adresse ist leer!");
+    } else {
+      sBody = "";
+    }
+        if ((bool)Global.GetGlobalField("GlobaleEinstellungen", "MitEMailAnhang") == false){
+            sBody = sBody + "&lt;br&gt;" + "Mit freundlichem Gruß";	
+            sBody = sBody + "&lt;br&gt;" + TheView.GetAPUserRealName();
+        }
+    if ((bool)Global.GetGlobalField("GlobaleEinstellungen", "MitEMailAnhang") == true){
+        AddEMailFooter(ref sBody);
+    }
+    TheView.SendAttachment(sEmailAdresse," ",sBody,"",""); 
+    return sBody;
+}
+
+static string setLaenderkennziffer() {
+    string strIBAN = TheView.GetDBFieldString("Adressen.BankVerbindungen", "IBAN");
+	if (strIBAN != "") {
+        string strKennziffer = "";
+        strKennziffer = setRewe_LaenderKennziffer(strIBAN);
+        if (strKennziffer != "") {
+            TheView.SetField("Adressen.BankVerbindungen", "REWE_LaenderKennziffer", strKennziffer);
+            TheView.SetField("Adressen.BankVerbindungen", "REWE_Land", setRewe_REWE_Land(strKennziffer));
+        } else {
+            MsgBox(Global.GetDialogText(11859, "", ",") + " '" + (Left(strIBAN, 2).ToUpper()) + "' "  + Global.GetDialogText(11860, "", ",")); // Die Länderkennziffer ' ist nicht in der Länder Tabelle als 'Laender.ISOCode' enthalten.
+            TheView.SetField("Adressen.BankVerbindungen", "REWE_LaenderKennziffer", strKennziffer);
+        } 
+    } else {
+		TheView.SetField("Adressen.BankVerbindungen", "REWE_LaenderKennziffer", "");
+    }
+    return strIBAN;
+}
+
+
+static string setRewe_LaenderKennziffer(string sIBAN) {
+	string strLaendercode = Left(sIBAN,2).ToUpper();
+	string sLaendercode = "";
+
+	string rQuery = (string)Query.Open("Laender WITH (NOLOCK)", "DISTINCT", "ISOCode", "ISOCode = '" + sLaendercode + "'", "ISOCode");
+	string sISOCode = Query.GetString(rQuery, "ISOCode");
+
+	if (sIBAN != "") {
+		if (sISOCode != "") {
+			sLaendercode = sISOCode;
+		} else {
+			sLaendercode = "";
+		}
+	} else {
+		sLaendercode = "";
+	}
+	return setRewe_LaenderKennziffer(sLaendercode);
+}
+
+static string setRewe_REWE_Land(string sKennziffer)
+{
+	string rQuery = (string)Query.Open("Laender WITH (NOLOCK)", "DISTINCT", "RechnungswesenLaenderNummer", "ISOCode = '" + sKennziffer + "'", "RechnungswesenLaenderNummer");
+	string sLand = Query.GetString(rQuery, "RechnungswesenLaenderNummer");
+	return setRewe_REWE_Land(sLand);
+}
+
+
+
+/*
+
+
+
+
+
+*/	
+//End of Lokale C#-Deklarationen</value>
+  </data>
 </root>
