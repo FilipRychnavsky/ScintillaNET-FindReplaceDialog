@@ -62,10 +62,9 @@
     <Node Id="@124" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="Dispose" Visibility="Hidden" />
     <Node Id="@125" Category="CodeSchema_Method" CodeSchemaProperty_IsProtected="True" CodeSchemaProperty_IsVirtual="True" DelayedCrossGroupLinksState="Fetched" Label="Dispose" Visibility="Hidden" />
     <Node Id="@126" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="FindNextF" Visibility="Hidden" />
-    <Node Id="@128" Category="CodeSchema_Method" Bounds="837.842083333333,846.35,101.816666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ReplaceNext" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="ReplaceNext" SourceLocation="(Assembly=&quot;file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/ScintillaNet FindReplaceDialog/FindReplace/FindReplaceDialog.cs&quot; StartLineNumber=1128 StartCharacterOffset=0 EndLineNumber=1128 EndCharacterOffset=0)">
+    <Node Id="@128" Category="CodeSchema_Method" Bounds="837.842083333333,846.35,101.816666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ReplaceNext" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="ReplaceNext" SourceLocation="(Assembly=&quot;file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/ScintillaNet FindReplaceDialog/FindReplace/FindReplaceDialog.cs&quot; StartLineNumber=1073 StartCharacterOffset=0 EndLineNumber=1073 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="@129" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="ResumeLayout" Visibility="Hidden" />
     <Node Id="@130" Category="CodeSchema_Method" CodeSchemaProperty_IsExternal="True" DelayedCrossGroupLinksState="Fetched" Label="set_AutoSize" Visibility="Hidden" />
@@ -133,7 +132,6 @@
     <Node Id="@194" Category="CodeSchema_Method" Bounds="279.099166666667,1538.565,125.16,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ReplaceSelection" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="ReplaceSelection" SourceLocation="(Assembly=file:///C:/Users/FRychnavsky/source/repos/ScintillaNET/src/ScintillaNET/Scintilla.cs StartLineNumber=1977 StartCharacterOffset=0 EndLineNumber=1977 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="@195" Category="CodeSchema_Method" Bounds="279.099166666667,1482.605,113.876666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SearchInTarget" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="SearchInTarget" SourceLocation="(Assembly=file:///C:/Users/FRychnavsky/source/repos/ScintillaNET/src/ScintillaNET/Scintilla.cs StartLineNumber=2201 StartCharacterOffset=0 EndLineNumber=2201 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
@@ -161,7 +159,6 @@
     <Node Id="@213" Category="CodeSchema_Method" Bounds="296.706664853741,325.046993810033,149.456666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="btnReplaceNext_Click" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="btnReplaceNext_Click" SourceLocation="(Assembly=&quot;file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/ScintillaNet FindReplaceDialog/FindReplace/FindReplaceDialog.cs&quot; StartLineNumber=283 StartCharacterOffset=0 EndLineNumber=283 EndCharacterOffset=0)" Visibility="Hidden">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="@214" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="btnReplacePrevious_Click" Visibility="Hidden" />
     <Node Id="@215" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="chkEcmaScript_CheckedChanged" Visibility="Hidden" />
@@ -374,7 +371,6 @@
     <Node Id="@396" Category="CodeSchema_Method" Bounds="648.71,57.6475,62.58,25.96" CodeSchemaProperty_IsPrivate="True" CodeSchemaProperty_IsStatic="True" CommonLabel="Main" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="Main" SourceLocation="(Assembly=file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/Demo/Program.cs StartLineNumber=18 StartCharacterOffset=0 EndLineNumber=18 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="@397" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Marker" Visibility="Hidden" />
     <Node Id="@398" Category="CodeSchema_Field" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="mnuExtendedCharFindF" Visibility="Hidden" />
@@ -418,7 +414,6 @@
     <Node Id="@427" Category="CodeSchema_Method" Bounds="837.842083333333,774.43,101.816666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="ReplaceNext" DelayedCrossGroupLinksState="Fetched" Icon="CodeSchema_Method" Label="ReplaceNext" SourceLocation="(Assembly=&quot;file:///C:/Users/FRychnavsky/Source/Repos/ScintillaNET-FindReplaceDialog/ScintillaNet FindReplaceDialog/FindReplace/FindReplaceDialog.cs&quot; StartLineNumber=748 StartCharacterOffset=0 EndLineNumber=748 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="@428" Category="CodeSchema_Property" Bounds="471.396195055154,1041.05377837319,138.896666666667,85.9602" CodeSchemaProperty_IsPublic="True" CommonLabel="Scintilla" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Property" Label="Scintilla" Visibility="Hidden" />
     <Node Id="@429" Category="CodeSchema_Property" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Scintilla" UseManualLocation="True" Visibility="Hidden" />
@@ -570,7 +565,6 @@
     <Node Id="CallingScintilla.ReplaceSelection(textToReplace)" Category="Comment" Bounds="566.427083333333,758.47,240.646666666667,57.8800000000001" Label="calling &#xD;&#xA;- FindReplace.Find&#xD;&#xA;- Scintilla.ReplaceSelection(textToReplace)" />
     <Node Id="ExternalCodeRootNode" Category="ExternalCallStackEntry" Bounds="633.506666666667,0,92.9866666666667,25.96" Label="External Code">
       <Category Ref="CallStackEntry" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
     <Node Id="GerufenAmEndeVonReplaceNext" Category="Comment" Bounds="604.597083333333,846.35,202.306666666667,25.96" Label="gerufen am Ende von ReplaceNext" />
     <Node Id="RuftScintilla.SeltSel(nextRange)" Category="Comment" Bounds="798.375416666667,702.51,180.75,25.96" Label="ruft Scintilla.SetSel(nextRange)" />
@@ -2414,9 +2408,7 @@
     <Link Source="@393" Target="@84" Category="References" Weight="1" />
     <Link Source="@394" Target="@84" Category="References" Weight="1" />
     <Link Source="@395" Target="@117" Category="References" Weight="1" />
-    <Link Source="@396" Target="@213" Category="CallStackIndirectCall" Label="External Code">
-      <Category Ref="CurrentCallStackCall" />
-    </Link>
+    <Link Source="@396" Target="@213" Category="CallStackIndirectCall" Label="External Code" />
     <Link Source="@396" Target="@287" Category="CodeSchema_Calls" Weight="1" />
     <Link Source="@397" Target="@301" Category="CodeSchema_FieldWrite" Bounds="-837.840087890625,1096.53356933594,1230.18341064453,72.049560546875" IsSourceVirtualized="True" Weight="2">
       <Category Ref="CodeSchema_FieldRead" />
@@ -3147,9 +3139,7 @@
       <Category Ref="CodeSchema_ReturnTypeLink" />
     </Link>
     <Link Source="CallingScintilla.ReplaceSelection(textToReplace)" Target="@128" Bounds="768.033508300781,816.349975585938,75.7816772460938,26.9813232421875" />
-    <Link Source="ExternalCodeRootNode" Target="@396" Category="CallStackIndirectCall" Bounds="680,25.9599990844727,0,22.6875">
-      <Category Ref="CurrentCallStackCall" />
-    </Link>
+    <Link Source="ExternalCodeRootNode" Target="@396" Category="CallStackIndirectCall" Bounds="680,25.9599990844727,0,22.6875" />
     <Link Source="GerufenAmEndeVonReplaceNext" Target="@247" Bounds="748.197509765625,872.309997558594,89.5077514648438,27.3707885742188" />
     <Link Source="RuftScintilla.SeltSel(nextRange)" Target="@427" Bounds="888.750427246094,728.469970703125,0,36.9600219726563" />
     <Link Source="_standardGraphExternalsGroup" Target="@10" Category="Contains" />
@@ -3158,7 +3148,6 @@
     <Link Source="_standardGraphExternalsGroup" Target="@6" Category="Contains" />
   </Links>
   <Categories>
-    <Category Id="BaseCustomContent" CanBeDataDriven="True" IsProviderRoot="False" />
     <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
     <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
     <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
@@ -3187,8 +3176,6 @@
     <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
     <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
     <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
-    <Category Id="CurrentCallStackCall" Label="Current Call Stack call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Current Call Stack call" OutgoingActionLabel="Current Call Stack call" />
-    <Category Id="CurrentCallStackEntry" Label="Current Call Stack Entry" BasedOn="BaseCustomContent" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Current Call Stack Entry" />
     <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
     <Category Id="Externals" Label="Externals" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Externals" />
     <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
