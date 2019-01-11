@@ -3,13 +3,13 @@
 *.user
 *.sln.docstates
 obj/
-/ScintillaNet FindReplaceDialog/bin/Debug/
-/ScintillaNet FindReplaceDialog/NuGet.Packager/
+/ScintillaNET-FindReplaceDialog/bin/Debug/
+/ScintillaNET-FindReplaceDialog/NuGet.Packager/
 
 *.lock
-/.vs/ScintillaNET FindReplaceDialog/v15/Server/sqlite3/storage.ide-wal
-/.vs/ScintillaNET FindReplaceDialog/v15/Server/sqlite3/storage.ide-shm
-/.vs/ScintillaNET FindReplaceDialog/v15/Server/sqlite3/storage.ide
+/.vs/ScintillaNET-FindReplaceDialog/v15/Server/sqlite3/storage.ide-wal
+/.vs/ScintillaNET-FindReplaceDialog/v15/Server/sqlite3/storage.ide-shm
+/.vs/ScintillaNET-FindReplaceDialog/v15/Server/sqlite3/storage.ide
 /.vs/ProjectSettings.json
 /.vs
 
